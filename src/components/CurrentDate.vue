@@ -16,7 +16,7 @@ onMounted(() => {
 
 const formatDate = (dateString) => {
   const date = new Date(dateString);
-  // форматируем дату и время в формате "день.месяц.год час:минута:секунда"
+
   return format(date, "dd.MM.yyyy", { timeZone: "Asia/Almaty" });
 };
 </script>
